@@ -14,6 +14,7 @@
 		C29B9BC01B0EBD7D00E696D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C29B9BBF1B0EBD7D00E696D9 /* Images.xcassets */; };
 		C29B9BC31B0EBD7D00E696D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C29B9BC11B0EBD7D00E696D9 /* LaunchScreen.xib */; };
 		C29B9BCF1B0EBD7D00E696D9 /* Lesson_UI____2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C29B9BCE1B0EBD7D00E696D9 /* Lesson_UI____2Tests.m */; };
+		C29B9BDA1B0EBF4900E696D9 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29B9BD91B0EBF4900E696D9 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		C29B9BC81B0EBD7D00E696D9 /* Lesson_UI____2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lesson_UI____2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C29B9BCD1B0EBD7D00E696D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C29B9BCE1B0EBD7D00E696D9 /* Lesson_UI____2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Lesson_UI____2Tests.m"; sourceTree = "<group>"; };
+		C29B9BD81B0EBF4900E696D9 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C29B9BD91B0EBF4900E696D9 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		C29B9BA61B0EBD7C00E696D9 = {
 			isa = PBXGroup;
 			children = (
+				C29B9BD81B0EBF4900E696D9 /* RootViewController.h */,
+				C29B9BD91B0EBF4900E696D9 /* RootViewController.m */,
 				C29B9BB11B0EBD7D00E696D9 /* Lesson_UI____2 */,
 				C29B9BCB1B0EBD7D00E696D9 /* Lesson_UI____2Tests */,
 				C29B9BB01B0EBD7D00E696D9 /* Products */,
@@ -221,6 +226,7 @@
 			files = (
 				C29B9BBB1B0EBD7D00E696D9 /* ViewController.m in Sources */,
 				C29B9BB81B0EBD7D00E696D9 /* AppDelegate.m in Sources */,
+				C29B9BDA1B0EBF4900E696D9 /* RootViewController.m in Sources */,
 				C29B9BB51B0EBD7D00E696D9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +420,7 @@
 				C29B9BD41B0EBD7D00E696D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C29B9BD51B0EBD7D00E696D9 /* Build configuration list for PBXNativeTarget "Lesson_UI____2Tests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				C29B9BD71B0EBD7D00E696D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
